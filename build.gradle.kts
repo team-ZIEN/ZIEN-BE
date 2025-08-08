@@ -57,6 +57,9 @@ dependencies {
 	implementation(Dependencies.JWT_API)
 	implementation(Dependencies.JWT_IMPL)
 	runtimeOnly(Dependencies.JWT_JACKSON)
+
+	// Oauth2 client
+	implementation(Dependencies.OAUTH2_CLIENT)
 }
 
 kotlin {
