@@ -25,4 +25,7 @@ object Dependencies {
 
     // Test
     const val JUNIT_PLATFORM_LAUNCHER = "org.junit.platform:junit-platform-launcher"
+
+    // Oauth2 client
+    const val OAUTH2_CLIENT = "implementation 'org.springframework.boot:spring-boot-starter-oauth2-client"
 }
